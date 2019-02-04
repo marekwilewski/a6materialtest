@@ -1,0 +1,73 @@
+<br>
+<div>
+
+  <mat-form-field class="example-full-width">
+    <input matInput [(ngModel)]="filter.firstName" name="firstName" placeholder="First Name">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput [(ngModel)]="filter.lastName" name="lastName" placeholder="Last Name">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput [(ngModel)]="filter.pesel" name="pesel" placeholder="PESEL">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput [(ngModel)]="filter.nip" name="nip" placeholder="NIP">
+  </mat-form-field>
+
+  <button mat-raised-button (click)="refresh()">Refresh</button>
+  <button *ngIf="selectedRowIndex !== -1" mat-raised-button (click)="delete()">Delete</button>
+  <button *ngIf="selectedRowIndex !== -1" mat-raised-button routerLink="/edit">Edit</button>
+  <button *ngIf="selectedRowIndex !== -1" mat-raised-button routerLink="/reactiveForm">ReactiveFormEdit</button>
+
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Id </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="firstName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> First Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="lastName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Last Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.lastName}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="birthDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Birth Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.birthDate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="pesel">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> PESEL </th>
+      <td mat-cell *matCellDef="let element"> {{element.pesel}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="nip">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> NIP </th>
+      <td mat-cell *matCellDef="let element"> {{element.nip}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="genderName">
+      <th mat-header-cell *matHeaderCellDef> Gender </th>
+      <td mat-cell *matCellDef="let element"> {{element.gender?.name}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="maritalStatusName">
+      <th mat-header-cell *matHeaderCellDef> Marital Status </th>
+      <td mat-cell *matCellDef="let element"> {{element.maritalStatus?.name}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{'highlight': selectedRowIndex == row.id}"
+      (click)="highlight(row)"></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
+</div>

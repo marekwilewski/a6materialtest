@@ -1,0 +1,89 @@
+<div >
+<mat-card>
+    <mat-card-content>
+      <h3 class="example-h2">Wybór kolumn</h3>
+      <table>
+        <tr>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="firstNameCheck" name="firstName">First Name</mat-checkbox>
+          </td>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="lastNameCheck" name="lastName">Last Name</mat-checkbox>
+          </td>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="birthDateCheck" name="birthDate">Birth Date</mat-checkbox>
+          </td>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="peselCheck" name="pesel">PESEL</mat-checkbox>
+          </td>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="nipCheck" name="nip">NIP</mat-checkbox>
+          </td>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="genderCheck" name="genderName">Gender</mat-checkbox>
+          </td>
+          <td>
+            <mat-checkbox color="primary" (change)="OnChange($event)" class="example-margin"
+              [(ngModel)]="martialCheck" name="maritalStatusName">Martial Status</mat-checkbox>
+          </td>
+        </tr>
+      </table>
+    </mat-card-content>
+  </mat-card>
+
+<mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="id">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Id </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.id}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="firstName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> First Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.firstName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="lastName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Last Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.lastName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="birthDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Birth Date </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.birthDate}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="pesel">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> PESEL </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.pesel}} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="nip">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> NIP </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.nip}} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="genderName">
+        <mat-header-cell *matHeaderCellDef> Gender </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.gender?.name}} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="maritalStatusName">
+        <mat-header-cell *matHeaderCellDef> Martial Status </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.maritalStatus?.name}} </mat-cell>
+      </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+</mat-table>
+
+<mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
+</div>

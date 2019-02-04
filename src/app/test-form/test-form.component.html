@@ -1,0 +1,50 @@
+<h3>Two-Way Data Binding Save New Client</h3>
+<div>
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="client.firstName" name="firstName" placeholder="First Name">
+    </mat-form-field>
+    <span *ngIf='firstNameFlag'>test</span>
+    <br>
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="client.lastName" name="lastName" placeholder="Last Name">
+    </mat-form-field>
+    <span *ngIf='lastNameFlag'>test</span>
+    <br>
+    <mat-form-field class="example-full-width" >
+      <input matInput [matDatepicker]="picker" [(ngModel)]="client.birthDate" name="birthDate" placeholder="Birth Date">
+      <mat-datepicker #picker></mat-datepicker>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="client.pesel" name="pesel" placeholder="PESEL">
+    </mat-form-field>
+    <span *ngIf='peselFlag'>test</span>
+    <br>
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="client.nip" name="nip" placeholder="NIP">
+    </mat-form-field>
+    <span *ngIf='nipFlag'>test</span>
+    <br>
+    <mat-form-field>
+      <mat-select [(ngModel)]="selectedGender" name="gender" placeholder="Gender">
+        <mat-option *ngFor="let gender of genders" [value]="gender.id">
+          {{gender.id}} - {{gender.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-select [(ngModel)]="selectedMaritalStatus" name="maritalStatus" placeholder="Marital Status">
+        <mat-option *ngFor="let maritalStatus of maritalStatuses" [value]="maritalStatus.id">
+          {{maritalStatus.id}} - {{maritalStatus.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </form>
+
+  {{errors | json}}
+  <button (click)="save()">save</button>
+</div>

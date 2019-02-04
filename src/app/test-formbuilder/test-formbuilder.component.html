@@ -1,0 +1,72 @@
+<h3>Form Builder Save New Client</h3>
+<div>
+    <form [formGroup]="clientForm" class="example-form" (ngSubmit)="onSubmit()">
+        <mat-form-field class="example-full-width">
+            <input matInput formControlName="firstName" (keypress)="letterOnly($event)" placeholder="First name">
+            <mat-error *ngIf="clientForm.get('firstName').hasError('required')">
+                Imię jest wymagane
+            </mat-error>
+            <mat-error *ngIf="clientForm.get('firstName').hasError('pattern')">
+                Złe znaki w imieniu
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput formControlName="lastName" (keypress)="letterOnly($event)" placeholder="Last name">
+            <mat-error *ngIf="clientForm.get('lastName').hasError('required')">
+                Nazwisko jest wymagane
+            </mat-error>
+            <mat-error *ngIf="clientForm.get('lastName').hasError('pattern')">
+                Złe znaki w nazwisku
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput [matDatepicker]="picker"  formControlName="birthDate" (keypress)="numberOnly($event)" name="birthDate"
+                placeholder="Birth Date">
+            <mat-datepicker #picker></mat-datepicker>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <!-- <mat-error *ngIf="clientForm.get('birthDate').hasError(">
+                Proszę podać poprawną datę
+            </mat-error> -->
+        </mat-form-field>
+        <br><br>
+
+        <mat-form-field class="example-full-width">
+            <input matInput formControlName="pesel" (keypress)="numberOnly($event)" [maxLength]=11 placeholder="PESEL">
+      <mat-hint align="end">{{clientForm.get('pesel').value.length}}/11</mat-hint>
+            <mat-error *ngIf="clientForm.get('pesel').hasError" style="font-size: 11px">
+                Zły numer PESEL
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <input matInput formControlName="nip" (keypress)="numberOnly($event)" [maxLength]=10 placeholder="NIP">
+            <mat-hint align="end">{{clientForm.get('nip').value.length}}/10</mat-hint>
+            <mat-error *ngIf="clientForm.get('nip').hasError" style="font-size: 12px">
+                Zły numer NIP
+            </mat-error>
+        </mat-form-field>
+        <br><br>
+
+        <mat-form-field>
+            <mat-select formControlName="genderType" placeholder="Gender">
+                <mat-option *ngFor="let gender of genders" [value]="gender.id">
+                    {{gender.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-select formControlName="maritalStatusType" placeholder="Marital Status">
+                <mat-option *ngFor="let maritalStatus of maritalStatuses" [value]="maritalStatus.id">
+                    {{maritalStatus.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+
+        <button mat-raised-button color="primary" [disabled]="!clientForm.valid" type="submit">Save</button>
+
+    </form>
+</div>

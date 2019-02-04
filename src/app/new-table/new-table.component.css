@@ -1,0 +1,20 @@
+
+  table {
+    width: 100%;
+  }
+  .mat-cell,
+  .mat-header-cell {
+    flex: 0 0 120px;
+  }
+
+.mat-cell.mat-cell.cdk-column-id.mat-column-id.ng-star-inserted,
+.mat-header-cell.mat-header-cell.cdk-column-id.mat-column-id.ng-star-inserted {
+    flex: 0 0 50px !important;
+    }
+
+.mat-cell.mat-cell.cdk-column-maritalStatusName.mat-column-maritalStatusName.ng-star-inserted,
+.mat-header-cell.mat-header-cell.cdk-column-maritalStatusName.mat-column-maritalStatusName.ng-star-inserted {
+    flex: 0 0 200px !important;
+  }
+
+

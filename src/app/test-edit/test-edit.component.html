@@ -1,0 +1,57 @@
+<h3>Edit</h3>
+<div>
+  <form class="example-form" (ngSubmit)="onSubmit($event)">
+
+    <mat-form-field class="example-full-width">
+      <input matInput name="firstName" placeholder="First Name" value={{clientToEdit.firstName}}>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput name="lastName" placeholder="Last Name" value={{clientToEdit.lastName}}>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput name="pesel" placeholder="PESEL" value={{clientToEdit.pesel}}>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput name="nip" placeholder="NIP" value={{clientToEdit.nip}}>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput name="birthDate" placeholder="Birth Date" value={{clientToEdit.birthDate}}>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select [(ngModel)]="selectedGender" name="gender" placeholder="Gender">
+        <!-- <mat-option></mat-option> -->
+        <mat-option *ngFor="let gender of genders" [value]="gender.id">
+          {{gender.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select [(ngModel)]="selectedMartialStatus" name="maritalStatus" placeholder="Marital Status">
+        <!-- <mat-option>{{clientToEdit.maritalStatus.name}}</mat-option> -->
+        <mat-option *ngFor="let maritalStatus of maritalStatuses" [value]="maritalStatus.id">
+          {{maritalStatus.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div>
+      <button type="submit">Update</button>
+    </div>
+
+  </form>
+</div>
+<p>
+  <span>{{clientToEdit.id}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.firstName}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.lastName}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.pesel}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.nip}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.gender.name}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.maritalStatus.name}}</span>  <span>&nbsp;|&nbsp;</span>
+  <span>{{clientToEdit.birthDate}}</span>  <span>&nbsp;|&nbsp;</span>
+</p>

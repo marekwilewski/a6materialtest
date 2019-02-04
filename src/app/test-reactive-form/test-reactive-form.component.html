@@ -1,0 +1,60 @@
+<h3>Reactive Form Edit</h3>
+<div>
+  <form [formGroup]="clientEditForm" class="example-form" (ngSubmit)="onSubmit()">
+    <mat-form-field class="example-full-width">
+      <input matInput formControlName="firstName" (keypress)="letterOnly($event)" placeholder="First name">
+    </mat-form-field>
+    <span class="warring" *ngIf="clientEditForm.get('firstName').errors" style="color: red;">
+      Imię jest wymagane
+    </span>
+    <br>
+
+    <mat-form-field class="example-full-width">
+      <input matInput formControlName="lastName" (keypress)="letterOnly($event)" placeholder="Last name">
+    </mat-form-field>
+    <span class="warring" *ngIf="clientEditForm.get('lastName').errors" style="color: red;">
+      Nazwisko jest wymagane
+      </span>
+    <br>
+    <!-- <mat-form-field class="example-full-width" >
+      <input matInput [matDatepicker]="myDate" formControleName="birthDate" placeholder="Birth Date">
+      <mat-datepicker-toggle matSuffix [for]="myDate"></mat-datepicker-toggle>
+      <mat-datepicker #myDate></mat-datepicker>
+    </mat-form-field>
+    <br> -->
+    <mat-form-field class="example-full-width">
+      <input matInput formControlName="pesel" (keypress)="numberOnly($event)" [maxLength]=11 placeholder="PESEL">
+    </mat-form-field>
+    <span class="warring" *ngIf="clientEditForm.get('pesel').errors" style="color: red;">
+      Zły PESEL
+    </span>
+    <br>
+    <mat-form-field class="example-full-width">
+      <input matInput formControlName="nip" (keypress)="numberOnly($event)" [maxLength]=10 placeholder="NIP">
+    </mat-form-field>
+    <span class="warring" *ngIf="clientEditForm.get('nip').errors" style="color: red;">
+      Zły NIP
+    </span>
+    <br>
+    <mat-form-field>
+      <mat-select formControlName="genderType" placeholder="Gender">
+
+        <mat-option *ngFor="let gender of genders" [value]="gender.id">
+          {{gender.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-select formControlName="maritalStatusType" placeholder="Marital Status">
+
+        <mat-option *ngFor="let maritalStatus of maritalStatuses" [value]="maritalStatus.id">
+          {{maritalStatus.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary" [disabled]="!clientEditForm.valid" type="submit">Save</button>
+
+  </form>
+</div>
