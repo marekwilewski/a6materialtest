@@ -16,6 +16,6 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
         MatDatepickerModule, MatInputModule, MatSelectModule, MatSortModule, MatNativeDateModule,
         MatMenuModule, MatIconModule, MatCardModule, MatMomentDateModule, MatDividerModule],
     providers: [{ provide: MAT_LABEL_GLOBAL_OPTIONS, useValue: { float: 'auto' } },
-        { provide: MAT_DATE_LOCALE, useValue: 'pl-PL' } ],
+        { provide: MAT_DATE_LOCALE, useValue: 'us-US' } ],
 })
 export class MaterialModule { }

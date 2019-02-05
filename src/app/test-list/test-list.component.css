@@ -1,7 +1,15 @@
 table {
-    width: 950px;
+    width: 960px;
 }
 
 .highlight{
-  background: rgb(179, 202, 180);
+  background: lightblue;
+}
+
+.mat-row:hover {
+    background-color:rgb(240, 240, 240);
+}
+
+.mat-row:hover.highlight {
+    background-color:lightblue;
 }
