@@ -107,9 +107,6 @@ export class TestReactiveFormComponent implements OnInit {
         this.client.maritalStatus = { id: 5, name: 'Inne' };
       }
     }
-    // console.log('errors: ', this.clientEditForm.get('firstName').errors);
-    // console.log(this.clientEditForm.value);
-    // console.log(this.client);
     this.clientService.putClient(this.client);
   }
 }
