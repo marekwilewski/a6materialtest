@@ -1,16 +1,22 @@
 table {
-    width: 100%;
+    width: 950px;
 }
 
 .mat-cell,
 .mat-header-cell {
-    flex: 0 0 120px;
+    flex: 0 0 115px;
 }
 
 .mat-cell.mat-cell.cdk-column-id.mat-column-id.ng-star-inserted,
 .mat-header-cell.mat-header-cell.cdk-column-id.mat-column-id.ng-star-inserted {
     flex: 0 0 50px !important;
 }
+
+/* .mat-cell.mat-cell.cdk-column-genderName.mat-column-genderName.ng-star-inserted,
+.mat-header-cell.mat-header-cell.cdk-column-genderName.mat-column-genderName.ng-star-inserted {
+    flex: 0 0 100px !important;
+} */
+
 
 .mat-cell.mat-cell.cdk-column-maritalStatusName.mat-column-maritalStatusName.ng-star-inserted,
 .mat-header-cell.mat-header-cell.cdk-column-maritalStatusName.mat-column-maritalStatusName.ng-star-inserted {

@@ -1,5 +1,9 @@
 table {
-  width: 100%;
+  width: 940px;
+}
+
+.mat-table {
+    width: 990px;
 }
 
 .highlight {
@@ -13,7 +17,7 @@ background: rgb(179, 202, 180);
 
 .mat-cell.mat-cell.cdk-column-id.mat-column-id.ng-star-inserted,
 .mat-header-cell.mat-header-cell.cdk-column-id.mat-column-id.ng-star-inserted {
-  flex: 0 0 150px !important;
+  flex: 0 0 50px !important;
   }
 
 .mat-cell.mat-cell.cdk-column-maritalStatusName.mat-column-maritalStatusName.ng-star-inserted,
