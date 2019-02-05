@@ -38,20 +38,13 @@ export class TestFormComponent implements OnInit {
       };
 
     this.clientService.getGenderTypes().subscribe(genders => {
-      // console.log(genders);
       this.genders = genders;
     });
     this.clientService.getMaritalStatuses().subscribe(maritalStatuses => {
-      // console.log(maritalStatuses);
       this.maritalStatuses = maritalStatuses;
     });
 
-    // this.genders =  [{id: 1, name: 'Kobieta'}, {id: 2, name: 'Mezczyzna'}];
-    // this.maritalStatuses = [{id: 1, name: 'Kawaler / Panna'}, {id: 2, name: 'Żonaty / Zamężna'},
-    //  {id: 3, name: 'Rozwiedziny / Rozwiedziona'}, {id: 4, name: 'Wdowiec / Wdowa'}];
-
-    let i;
-    for (i = 0; i < this.fields.length; i++) {
+    for (let i = 0; i < this.fields.length; i++) {
       if (this.fields[i] === 'pesel') { this.peselFlag = true; }
       if (this.fields[i] === 'nip') { this.nipFlag = true; }
       if (this.fields[i] === 'firstName') { this.firstNameFlag = true; }
@@ -60,7 +53,6 @@ export class TestFormComponent implements OnInit {
   }
 
   save() {
-
     switch (this.selectedGender) {
       case 1: {
         this.client.gender = { id: 1, name: 'Kobieta' };

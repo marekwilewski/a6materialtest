@@ -23,7 +23,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 export class TestFormbuilderComponent implements OnInit {
 
   client: Client;
-  genders: GenderType[]; // = [{id:1, name: 'Kobieta'}, {id:2, name: 'Mezczyzna'}];
+  genders: GenderType[];
   maritalStatuses: MaritalStatus[];
   clientForm: FormGroup;
   matcher = new MyErrorStateMatcher();
@@ -108,9 +108,6 @@ export class TestFormbuilderComponent implements OnInit {
         this.client.maritalStatus = { id: 5, name: 'Inne' };
       }
     }
-    // console.log('errors: ', this.clientForm.get('firstName').errors);
-    // console.log(this.clientForm.value);
-    // console.log(this.client);
 
     this.clientService.saveClient(this.client).subscribe(
       result => {
@@ -125,7 +122,6 @@ export class TestFormbuilderComponent implements OnInit {
         }
         console.log(errors);
       });
-
   }
 
 }
