@@ -1,0 +1,2642 @@
+[
+  {
+"id": 1,
+"insertData": "2018-12-07T11:52:51.613+0000",
+"updateData": "2018-12-07T11:52:51.613+0000",
+"active": true,
+"firstName": "Jakub",
+"lastName": "Pietrzak",
+"pesel": "74030439574",
+"nip": "5217653555",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1974-03-04",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 2,
+"insertData": "2018-12-07T11:52:51.630+0000",
+"updateData": "2018-12-07T11:52:51.630+0000",
+"active": true,
+"firstName": "Piotr",
+"lastName": "Kalinowski",
+"pesel": "78072609210",
+"nip": "3549702403",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1978-07-26",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 3,
+"insertData": "2018-12-07T11:52:51.643+0000",
+"updateData": "2018-12-07T11:52:51.643+0000",
+"active": true,
+"firstName": "Alex",
+"lastName": "Cieslak",
+"pesel": "74061321639",
+"nip": "6534574136",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1974-06-13",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 4,
+"insertData": "2018-12-07T11:52:51.643+0000",
+"updateData": "2018-12-07T11:52:51.643+0000",
+"active": true,
+"firstName": "Julianna",
+"lastName": "Zawadzka",
+"pesel": "83112334481",
+"nip": "3659221043",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1983-11-23",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 5,
+"insertData": "2018-12-07T11:52:51.660+0000",
+"updateData": "2018-12-07T11:52:51.660+0000",
+"active": true,
+"firstName": "Dorota",
+"lastName": "Zajac",
+"pesel": "81072482183",
+"nip": "3980075553",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1981-07-24",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 6,
+"insertData": "2018-12-07T11:52:51.660+0000",
+"updateData": "2018-12-07T11:52:51.660+0000",
+"active": true,
+"firstName": "Hanna",
+"lastName": "Maciejewska",
+"pesel": "96041688406",
+"nip": "5885168025",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1996-04-16",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 7,
+"insertData": "2018-12-07T11:52:51.677+0000",
+"updateData": "2018-12-07T11:52:51.677+0000",
+"active": true,
+"firstName": "Monika",
+"lastName": "Czerwinska",
+"pesel": "95010129863",
+"nip": "7859988057",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1995-01-01",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 8,
+"insertData": "2018-12-07T11:52:51.677+0000",
+"updateData": "2018-12-07T11:52:51.677+0000",
+"active": true,
+"firstName": "Maja",
+"lastName": "Nowak",
+"pesel": "82123009786",
+"nip": "4182457064",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1982-12-30",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 9,
+"insertData": "2018-12-07T11:52:51.690+0000",
+"updateData": "2018-12-07T11:52:51.690+0000",
+"active": true,
+"firstName": "Monika",
+"lastName": "Borowska",
+"pesel": "85112796520",
+"nip": "8805633788",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1985-11-27",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 10,
+"insertData": "2018-12-07T11:52:51.690+0000",
+"updateData": "2018-12-07T11:52:51.690+0000",
+"active": true,
+"firstName": "Ignacy",
+"lastName": "Maciejewski",
+"pesel": "82041167735",
+"nip": "0315075080",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1982-04-11",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 11,
+"insertData": "2018-12-07T11:52:51.690+0000",
+"updateData": "2018-12-07T11:52:51.690+0000",
+"active": true,
+"firstName": "Marianna",
+"lastName": "Kalinowska",
+"pesel": "85020764123",
+"nip": "1017430321",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1985-02-07",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 12,
+"insertData": "2018-12-07T11:52:51.707+0000",
+"updateData": "2018-12-07T11:52:51.707+0000",
+"active": true,
+"firstName": "Stefan",
+"lastName": "Konieczny",
+"pesel": "74092161530",
+"nip": "6457470996",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1974-09-21",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 13,
+"insertData": "2018-12-07T11:52:51.707+0000",
+"updateData": "2018-12-07T11:52:51.707+0000",
+"active": true,
+"firstName": "Julita",
+"lastName": "Wisniewska",
+"pesel": "75102244283",
+"nip": "7087170117",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1975-10-22",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 14,
+"insertData": "2018-12-07T11:52:51.723+0000",
+"updateData": "2018-12-07T11:52:51.723+0000",
+"active": true,
+"firstName": "Stefan",
+"lastName": "Jablonski",
+"pesel": "66102820238",
+"nip": "9976913899",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1966-10-28",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 15,
+"insertData": "2018-12-07T11:52:51.723+0000",
+"updateData": "2018-12-07T11:52:51.723+0000",
+"active": true,
+"firstName": "Adrianna",
+"lastName": "Ostrowska",
+"pesel": "62062020565",
+"nip": "6211417186",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1962-06-20",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 16,
+"insertData": "2018-12-07T11:52:51.737+0000",
+"updateData": "2018-12-07T11:52:51.737+0000",
+"active": true,
+"firstName": "Franciszek",
+"lastName": "Laskowski",
+"pesel": "82041826533",
+"nip": "1901681221",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1982-04-18",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 17,
+"insertData": "2018-12-07T11:52:51.737+0000",
+"updateData": "2018-12-07T11:52:51.737+0000",
+"active": true,
+"firstName": "Stanislaw",
+"lastName": "Borowski",
+"pesel": "72032034513",
+"nip": "7203277967",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1972-03-20",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 18,
+"insertData": "2018-12-07T11:52:51.737+0000",
+"updateData": "2018-12-07T11:52:51.737+0000",
+"active": true,
+"firstName": "Kajetan",
+"lastName": "Blaszczyk",
+"pesel": "64061635010",
+"nip": "0115232930",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1964-06-16",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 19,
+"insertData": "2018-12-07T11:52:51.753+0000",
+"updateData": "2018-12-07T11:52:51.753+0000",
+"active": true,
+"firstName": "Eryk",
+"lastName": "Kwiatkowski",
+"pesel": "67012680572",
+"nip": "4908725684",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1967-01-26",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 20,
+"insertData": "2018-12-07T11:52:51.753+0000",
+"updateData": "2018-12-07T11:52:51.753+0000",
+"active": true,
+"firstName": "Norbert",
+"lastName": "Wróbel",
+"pesel": "89042166633",
+"nip": "0668037080",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1989-04-21",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 21,
+"insertData": "2018-12-07T11:52:51.770+0000",
+"updateData": "2018-12-07T11:52:51.770+0000",
+"active": true,
+"firstName": "Aurelia",
+"lastName": "Duda",
+"pesel": "93061149166",
+"nip": "2122654202",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1993-06-11",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 22,
+"insertData": "2018-12-07T11:52:51.770+0000",
+"updateData": "2018-12-07T11:52:51.770+0000",
+"active": true,
+"firstName": "Filip",
+"lastName": "Czarnecki",
+"pesel": "71011699794",
+"nip": "0342797070",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1971-01-16",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 23,
+"insertData": "2018-12-07T11:52:51.770+0000",
+"updateData": "2018-12-07T11:52:51.770+0000",
+"active": true,
+"firstName": "Emil",
+"lastName": "Makowski",
+"pesel": "86112202392",
+"nip": "7582004747",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1986-11-22",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 24,
+"insertData": "2018-12-07T11:52:51.783+0000",
+"updateData": "2018-12-07T11:52:51.783+0000",
+"active": true,
+"firstName": "Martyna",
+"lastName": "Sobczak",
+"pesel": "75100138203",
+"nip": "3253603613",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1975-10-01",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 25,
+"insertData": "2018-12-07T11:52:51.783+0000",
+"updateData": "2018-12-07T11:52:51.783+0000",
+"active": true,
+"firstName": "Krystyna",
+"lastName": "Jakubowska",
+"pesel": "91070339622",
+"nip": "5079889445",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1991-07-03",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 26,
+"insertData": "2018-12-07T11:52:51.800+0000",
+"updateData": "2018-12-07T11:52:51.800+0000",
+"active": true,
+"firstName": "Laura",
+"lastName": "Wozniak",
+"pesel": "70040695346",
+"nip": "8777443498",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1970-04-06",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 27,
+"insertData": "2018-12-07T11:52:51.800+0000",
+"updateData": "2018-12-07T11:52:51.800+0000",
+"active": true,
+"firstName": "Dagmara",
+"lastName": "Górecka",
+"pesel": "83120901866",
+"nip": "5557946065",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1983-12-09",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 28,
+"insertData": "2018-12-07T11:52:51.817+0000",
+"updateData": "2018-12-07T11:52:51.817+0000",
+"active": true,
+"firstName": "Emil",
+"lastName": "Zajac",
+"pesel": "85080395855",
+"nip": "9488725779",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1985-08-03",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 29,
+"insertData": "2018-12-07T11:52:51.817+0000",
+"updateData": "2018-12-07T11:52:51.817+0000",
+"active": true,
+"firstName": "Julita",
+"lastName": "Krupa",
+"pesel": "94082580448",
+"nip": "5492975305",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1994-08-25",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 30,
+"insertData": "2018-12-07T11:52:51.817+0000",
+"updateData": "2018-12-07T11:52:51.817+0000",
+"active": true,
+"firstName": "Anita",
+"lastName": "Kaczmarczyk",
+"pesel": "70102653103",
+"nip": "0997235320",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1970-10-26",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 31,
+"insertData": "2018-12-07T11:52:51.830+0000",
+"updateData": "2018-12-07T11:52:51.830+0000",
+"active": true,
+"firstName": "Patryk",
+"lastName": "Szymczak",
+"pesel": "76051743812",
+"nip": "3194648723",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1976-05-17",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 32,
+"insertData": "2018-12-07T11:52:51.830+0000",
+"updateData": "2018-12-07T11:52:51.830+0000",
+"active": true,
+"firstName": "Justyna",
+"lastName": "Chmielewska",
+"pesel": "96011778643",
+"nip": "4969316374",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1996-01-17",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 33,
+"insertData": "2018-12-07T11:52:51.847+0000",
+"updateData": "2018-12-07T11:52:51.847+0000",
+"active": true,
+"firstName": "Wiktor",
+"lastName": "Zalewski",
+"pesel": "72102766414",
+"nip": "4517235044",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1972-10-27",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 34,
+"insertData": "2018-12-07T11:52:51.847+0000",
+"updateData": "2018-12-07T11:52:51.847+0000",
+"active": true,
+"firstName": "Barbara",
+"lastName": "Czerwinska",
+"pesel": "67102138541",
+"nip": "3023034503",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1967-10-21",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 35,
+"insertData": "2018-12-07T11:52:51.847+0000",
+"updateData": "2018-12-07T11:52:51.847+0000",
+"active": true,
+"firstName": "Mateusz",
+"lastName": "Marciniak",
+"pesel": "91010708655",
+"nip": "4729598144",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1991-01-07",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 36,
+"insertData": "2018-12-07T11:52:51.863+0000",
+"updateData": "2018-12-07T11:52:51.863+0000",
+"active": true,
+"firstName": "Albert",
+"lastName": "Duda",
+"pesel": "67123105953",
+"nip": "0176273780",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1967-12-31",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 37,
+"insertData": "2018-12-07T11:52:51.863+0000",
+"updateData": "2018-12-07T11:52:51.863+0000",
+"active": true,
+"firstName": "Klaudia",
+"lastName": "Glowacka",
+"pesel": "60020778226",
+"nip": "9797562079",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1960-02-07",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 38,
+"insertData": "2018-12-07T11:52:51.880+0000",
+"updateData": "2018-12-07T11:52:51.880+0000",
+"active": true,
+"firstName": "Nadia",
+"lastName": "Kalinowska",
+"pesel": "72040846005",
+"nip": "6190550816",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1972-04-08",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 39,
+"insertData": "2018-12-07T11:52:51.880+0000",
+"updateData": "2018-12-07T11:52:51.880+0000",
+"active": true,
+"firstName": "Gabriela",
+"lastName": "Blaszczyk",
+"pesel": "69091259041",
+"nip": "6503386446",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1969-09-12",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 40,
+"insertData": "2018-12-07T11:52:51.880+0000",
+"updateData": "2018-12-07T11:52:51.880+0000",
+"active": true,
+"firstName": "Dominika",
+"lastName": "Wójcik",
+"pesel": "77011138020",
+"nip": "2709666682",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1977-01-11",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 41,
+"insertData": "2018-12-07T11:52:51.893+0000",
+"updateData": "2018-12-07T11:52:51.893+0000",
+"active": true,
+"firstName": "Urszula",
+"lastName": "Jakubowska",
+"pesel": "91010437300",
+"nip": "3941735193",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1991-01-04",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 42,
+"insertData": "2018-12-07T11:52:51.893+0000",
+"updateData": "2018-12-07T11:52:51.893+0000",
+"active": true,
+"firstName": "Cyprian",
+"lastName": "Wozniak",
+"pesel": "80122039911",
+"nip": "1743926831",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1980-12-20",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 43,
+"insertData": "2018-12-07T11:52:51.910+0000",
+"updateData": "2018-12-07T11:52:51.910+0000",
+"active": true,
+"firstName": "Nina",
+"lastName": "Witkowska",
+"pesel": "77051774888",
+"nip": "7236389937",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1977-05-17",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 44,
+"insertData": "2018-12-07T11:52:51.910+0000",
+"updateData": "2018-12-07T11:52:51.910+0000",
+"active": true,
+"firstName": "Iwo",
+"lastName": "Baranowski",
+"pesel": "64121362632",
+"nip": "4259267714",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1964-12-13",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 45,
+"insertData": "2018-12-07T11:52:51.927+0000",
+"updateData": "2018-12-07T11:52:51.927+0000",
+"active": true,
+"firstName": "Melania",
+"lastName": "Kucharska",
+"pesel": "68052444588",
+"nip": "2949003732",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1968-05-24",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 46,
+"insertData": "2018-12-07T11:52:51.927+0000",
+"updateData": "2018-12-07T11:52:51.927+0000",
+"active": true,
+"firstName": "Gabriela",
+"lastName": "Zalewska",
+"pesel": "90051464746",
+"nip": "7255327247",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1990-05-14",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 47,
+"insertData": "2018-12-07T11:52:51.927+0000",
+"updateData": "2018-12-07T11:52:51.927+0000",
+"active": true,
+"firstName": "Nina",
+"lastName": "Urbanska",
+"pesel": "65081006828",
+"nip": "6727316736",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1965-08-10",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 48,
+"insertData": "2018-12-07T11:52:51.940+0000",
+"updateData": "2018-12-07T11:52:51.940+0000",
+"active": true,
+"firstName": "Aleksandra",
+"lastName": "Zielinska",
+"pesel": "88031625843",
+"nip": "4605706724",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1988-03-16",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 49,
+"insertData": "2018-12-07T11:52:51.940+0000",
+"updateData": "2018-12-07T11:52:51.940+0000",
+"active": true,
+"firstName": "Kornel",
+"lastName": "Nowak",
+"pesel": "82050376030",
+"nip": "2895524312",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1982-05-03",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 50,
+"insertData": "2018-12-07T11:52:51.957+0000",
+"updateData": "2018-12-07T11:52:51.957+0000",
+"active": true,
+"firstName": "Anna",
+"lastName": "Gajewska",
+"pesel": "90111570383",
+"nip": "2696181162",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1990-11-15",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 51,
+"insertData": "2018-12-07T11:52:51.957+0000",
+"updateData": "2018-12-07T11:52:51.957+0000",
+"active": true,
+"firstName": "Wiktoria",
+"lastName": "Nowicka",
+"pesel": "56012059949",
+"nip": "4661949644",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1956-01-20",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 52,
+"insertData": "2018-12-07T11:52:51.957+0000",
+"updateData": "2018-12-07T11:52:51.957+0000",
+"active": true,
+"firstName": "Maks",
+"lastName": "Gajewski",
+"pesel": "80072296592",
+"nip": "4954658894",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1980-07-22",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 53,
+"insertData": "2018-12-07T11:52:51.973+0000",
+"updateData": "2018-12-07T11:52:51.973+0000",
+"active": true,
+"firstName": "Bianka",
+"lastName": "Makowska",
+"pesel": "62122112782",
+"nip": "1384381791",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1962-12-21",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 54,
+"insertData": "2018-12-07T11:52:51.973+0000",
+"updateData": "2018-12-07T11:52:51.973+0000",
+"active": true,
+"firstName": "Krystian",
+"lastName": "Mróz",
+"pesel": "78090158299",
+"nip": "4433854214",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1978-09-01",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 55,
+"insertData": "2018-12-07T11:52:51.987+0000",
+"updateData": "2018-12-07T11:52:51.987+0000",
+"active": true,
+"firstName": "Fryderyk",
+"lastName": "Jaworski",
+"pesel": "76020502899",
+"nip": "0606147820",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1976-02-05",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 56,
+"insertData": "2018-12-07T11:52:51.987+0000",
+"updateData": "2018-12-07T11:52:51.987+0000",
+"active": true,
+"firstName": "Milosz",
+"lastName": "Wlodarczyk",
+"pesel": "60060241632",
+"nip": "4482947694",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1960-06-02",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 57,
+"insertData": "2018-12-07T11:52:52.003+0000",
+"updateData": "2018-12-07T11:52:52.003+0000",
+"active": true,
+"firstName": "Oliwia",
+"lastName": "Lewandowska",
+"pesel": "59031042264",
+"nip": "8405148738",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1959-03-10",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 58,
+"insertData": "2018-12-07T11:52:52.003+0000",
+"updateData": "2018-12-07T11:52:52.003+0000",
+"active": true,
+"firstName": "Tola",
+"lastName": "Szczepanska",
+"pesel": "71051392646",
+"nip": "9317409699",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1971-05-13",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 59,
+"insertData": "2018-12-07T11:52:52.003+0000",
+"updateData": "2018-12-07T11:52:52.003+0000",
+"active": true,
+"firstName": "Liliana",
+"lastName": "Kaczmarek",
+"pesel": "76073092848",
+"nip": "0159995040",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1976-07-30",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 60,
+"insertData": "2018-12-07T11:52:52.020+0000",
+"updateData": "2018-12-07T11:52:52.020+0000",
+"active": true,
+"firstName": "Damian",
+"lastName": "Jaworski",
+"pesel": "86120497179",
+"nip": "3623968143",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1986-12-04",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 61,
+"insertData": "2018-12-07T11:52:52.020+0000",
+"updateData": "2018-12-07T11:52:52.020+0000",
+"active": true,
+"firstName": "Nataniel",
+"lastName": "Mazur",
+"pesel": "65022658578",
+"nip": "2994100402",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1965-02-26",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 62,
+"insertData": "2018-12-07T11:52:52.033+0000",
+"updateData": "2018-12-07T11:52:52.033+0000",
+"active": true,
+"firstName": "Borys",
+"lastName": "Sawicki",
+"pesel": "68111669194",
+"nip": "1704393301",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1968-11-16",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 63,
+"insertData": "2018-12-07T11:52:52.033+0000",
+"updateData": "2018-12-07T11:52:52.033+0000",
+"active": true,
+"firstName": "Konstanty",
+"lastName": "Mazurek",
+"pesel": "71022388294",
+"nip": "5800093635",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1971-02-23",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 64,
+"insertData": "2018-12-07T11:52:52.050+0000",
+"updateData": "2018-12-07T11:52:52.050+0000",
+"active": true,
+"firstName": "Anastazja",
+"lastName": "Krajewska",
+"pesel": "77041455447",
+"nip": "4584566084",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1977-04-14",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 65,
+"insertData": "2018-12-07T11:52:52.050+0000",
+"updateData": "2018-12-07T11:52:52.050+0000",
+"active": true,
+"firstName": "Tola",
+"lastName": "Michalska",
+"pesel": "86071027225",
+"nip": "9162386479",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1986-07-10",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 66,
+"insertData": "2018-12-07T11:52:52.050+0000",
+"updateData": "2018-12-07T11:52:52.050+0000",
+"active": true,
+"firstName": "Jedrzej",
+"lastName": "Kaczmarczyk",
+"pesel": "81071553756",
+"nip": "7882295547",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1981-07-15",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 67,
+"insertData": "2018-12-07T11:52:52.067+0000",
+"updateData": "2018-12-07T11:52:52.067+0000",
+"active": true,
+"firstName": "Nikodem",
+"lastName": "Krawczyk",
+"pesel": "64042359917",
+"nip": "2974659942",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1964-04-23",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 68,
+"insertData": "2018-12-07T11:52:52.067+0000",
+"updateData": "2018-12-07T11:52:52.067+0000",
+"active": true,
+"firstName": "Ernest",
+"lastName": "Jankowski",
+"pesel": "96121461356",
+"nip": "9482439549",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1996-12-14",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 69,
+"insertData": "2018-12-07T11:52:52.080+0000",
+"updateData": "2018-12-07T11:52:52.080+0000",
+"active": true,
+"firstName": "Norbert",
+"lastName": "Górski",
+"pesel": "77121289959",
+"nip": "8905404628",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1977-12-12",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 70,
+"insertData": "2018-12-07T11:52:52.080+0000",
+"updateData": "2018-12-07T11:52:52.080+0000",
+"active": true,
+"firstName": "Adam",
+"lastName": "Kolodziej",
+"pesel": "91012637890",
+"nip": "1319726791",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1991-01-26",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 71,
+"insertData": "2018-12-07T11:52:52.097+0000",
+"updateData": "2018-12-07T11:52:52.097+0000",
+"active": true,
+"firstName": "Karina",
+"lastName": "Nowak",
+"pesel": "77050809682",
+"nip": "5959708875",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1977-05-08",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 72,
+"insertData": "2018-12-07T11:52:52.097+0000",
+"updateData": "2018-12-07T11:52:52.097+0000",
+"active": true,
+"firstName": "Piotr",
+"lastName": "Baran",
+"pesel": "90091655636",
+"nip": "0600209860",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1990-09-16",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 73,
+"insertData": "2018-12-07T11:52:52.097+0000",
+"updateData": "2018-12-07T11:52:52.097+0000",
+"active": true,
+"firstName": "Daniel",
+"lastName": "Pawlowski",
+"pesel": "70021488615",
+"nip": "3594799183",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1970-02-14",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 74,
+"insertData": "2018-12-07T11:52:52.113+0000",
+"updateData": "2018-12-07T11:52:52.113+0000",
+"active": true,
+"firstName": "Marcel",
+"lastName": "Wilk",
+"pesel": "67102307538",
+"nip": "5765500785",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1967-10-23",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 75,
+"insertData": "2018-12-07T11:52:52.113+0000",
+"updateData": "2018-12-07T11:52:52.113+0000",
+"active": true,
+"firstName": "Oskar",
+"lastName": "Sadowski",
+"pesel": "62041368152",
+"nip": "1118794971",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1962-04-13",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 76,
+"insertData": "2018-12-07T11:52:52.130+0000",
+"updateData": "2018-12-07T11:52:52.130+0000",
+"active": true,
+"firstName": "Paulina",
+"lastName": "Glowacka",
+"pesel": "77080888107",
+"nip": "0291479690",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1977-08-08",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 77,
+"insertData": "2018-12-07T11:52:52.130+0000",
+"updateData": "2018-12-07T11:52:52.130+0000",
+"active": true,
+"firstName": "Fryderyk",
+"lastName": "Zalewski",
+"pesel": "70092974992",
+"nip": "5959733625",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1970-09-29",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 78,
+"insertData": "2018-12-07T11:52:52.130+0000",
+"updateData": "2018-12-07T11:52:52.130+0000",
+"active": true,
+"firstName": "Marika",
+"lastName": "Adamczyk",
+"pesel": "75082691943",
+"nip": "3457224413",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1975-08-26",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 79,
+"insertData": "2018-12-07T11:52:52.143+0000",
+"updateData": "2018-12-07T11:52:52.143+0000",
+"active": true,
+"firstName": "Gabriel",
+"lastName": "Górski",
+"pesel": "83120645755",
+"nip": "3759792513",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1983-12-06",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 80,
+"insertData": "2018-12-07T11:52:52.143+0000",
+"updateData": "2018-12-07T11:52:52.143+0000",
+"active": true,
+"firstName": "Malwina",
+"lastName": "Czerwinska",
+"pesel": "74100538068",
+"nip": "0940859050",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1974-10-05",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 81,
+"insertData": "2018-12-07T11:52:52.160+0000",
+"updateData": "2018-12-07T11:52:52.160+0000",
+"active": true,
+"firstName": "Szymon",
+"lastName": "Ziólkowski",
+"pesel": "89112708431",
+"nip": "1780942841",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1989-11-27",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 82,
+"insertData": "2018-12-07T11:52:52.160+0000",
+"updateData": "2018-12-07T11:52:52.160+0000",
+"active": true,
+"firstName": "Sandra",
+"lastName": "Cieslak",
+"pesel": "87060295621",
+"nip": "1369969631",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1987-06-02",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 83,
+"insertData": "2018-12-07T11:52:52.160+0000",
+"updateData": "2018-12-07T11:52:52.160+0000",
+"active": true,
+"firstName": "Karol",
+"lastName": "Szczepanski",
+"pesel": "77080933654",
+"nip": "6586223466",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1977-08-09",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 84,
+"insertData": "2018-12-07T11:52:52.177+0000",
+"updateData": "2018-12-07T11:52:52.177+0000",
+"active": true,
+"firstName": "Tola",
+"lastName": "Nowak",
+"pesel": "97091434825",
+"nip": "9540718989",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1997-09-14",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 85,
+"insertData": "2018-12-07T11:52:52.177+0000",
+"updateData": "2018-12-07T11:52:52.177+0000",
+"active": true,
+"firstName": "Jerzy",
+"lastName": "Lewandowski",
+"pesel": "70091409497",
+"nip": "3274292453",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1970-09-14",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 86,
+"insertData": "2018-12-07T11:52:52.190+0000",
+"updateData": "2018-12-07T11:52:52.190+0000",
+"active": true,
+"firstName": "Julita",
+"lastName": "Pietrzak",
+"pesel": "83021690485",
+"nip": "2395676412",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1983-02-16",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 87,
+"insertData": "2018-12-07T11:52:52.190+0000",
+"updateData": "2018-12-07T11:52:52.190+0000",
+"active": true,
+"firstName": "Patrycja",
+"lastName": "Piotrowska",
+"pesel": "74092909109",
+"nip": "4098990634",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1974-09-29",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 88,
+"insertData": "2018-12-07T11:52:52.207+0000",
+"updateData": "2018-12-07T11:52:52.207+0000",
+"active": true,
+"firstName": "Gabriel",
+"lastName": "Adamczyk",
+"pesel": "86110755632",
+"nip": "9384263949",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1986-11-07",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 89,
+"insertData": "2018-12-07T11:52:52.207+0000",
+"updateData": "2018-12-07T11:52:52.207+0000",
+"active": true,
+"firstName": "Alex",
+"lastName": "Wasilewski",
+"pesel": "90033150157",
+"nip": "9748589859",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1990-03-31",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 90,
+"insertData": "2018-12-07T11:52:52.223+0000",
+"updateData": "2018-12-07T11:52:52.223+0000",
+"active": true,
+"firstName": "Karolina",
+"lastName": "Jankowska",
+"pesel": "68030427868",
+"nip": "9038793299",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1968-03-04",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 91,
+"insertData": "2018-12-07T11:52:52.223+0000",
+"updateData": "2018-12-07T11:52:52.223+0000",
+"active": true,
+"firstName": "Józef",
+"lastName": "Makowski",
+"pesel": "64080496650",
+"nip": "8542050478",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1964-08-04",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 92,
+"insertData": "2018-12-07T11:52:52.223+0000",
+"updateData": "2018-12-07T11:52:52.223+0000",
+"active": true,
+"firstName": "Tadeusz",
+"lastName": "Wróbel",
+"pesel": "71043023994",
+"nip": "3695074773",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1971-04-30",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 93,
+"insertData": "2018-12-07T11:52:52.237+0000",
+"updateData": "2018-12-07T11:52:52.237+0000",
+"active": true,
+"firstName": "Zofia",
+"lastName": "Maciejewska",
+"pesel": "91110895802",
+"nip": "0576153090",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1991-11-08",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 94,
+"insertData": "2018-12-07T11:52:52.237+0000",
+"updateData": "2018-12-07T11:52:52.237+0000",
+"active": true,
+"firstName": "Przemyslaw",
+"lastName": "Andrzejewski",
+"pesel": "78032569392",
+"nip": "8565817388",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1978-03-25",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 95,
+"insertData": "2018-12-07T11:52:52.253+0000",
+"updateData": "2018-12-07T11:52:52.253+0000",
+"active": true,
+"firstName": "Leonard",
+"lastName": "Wisniewski",
+"pesel": "95061572795",
+"nip": "7982894907",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1995-06-15",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 96,
+"insertData": "2018-12-07T11:52:52.257+0000",
+"updateData": "2018-12-07T11:52:52.257+0000",
+"active": true,
+"firstName": "Antonina",
+"lastName": "Kwiatkowska",
+"pesel": "88100604083",
+"nip": "1859427581",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1988-10-06",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 97,
+"insertData": "2018-12-07T11:52:52.257+0000",
+"updateData": "2018-12-07T11:52:52.257+0000",
+"active": true,
+"firstName": "Apolonia",
+"lastName": "Kaczmarczyk",
+"pesel": "82071116541",
+"nip": "3843110133",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1982-07-11",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 98,
+"insertData": "2018-12-07T11:52:52.270+0000",
+"updateData": "2018-12-07T11:52:52.270+0000",
+"active": true,
+"firstName": "Nadia",
+"lastName": "Nowakowska",
+"pesel": "75092268029",
+"nip": "8814186078",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1975-09-22",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 99,
+"insertData": "2018-12-07T11:52:52.270+0000",
+"updateData": "2018-12-07T11:52:52.270+0000",
+"active": true,
+"firstName": "Nela",
+"lastName": "Sawicka",
+"pesel": "87033024148",
+"nip": "9580274859",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1987-03-30",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 100,
+"insertData": "2018-12-07T11:52:52.287+0000",
+"updateData": "2018-12-07T11:52:52.287+0000",
+"active": true,
+"firstName": "Nikodem",
+"lastName": "Piotrowski",
+"pesel": "74110966279",
+"nip": "6028513296",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1974-11-09",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 101,
+"insertData": "2018-12-07T11:52:52.287+0000",
+"updateData": "2018-12-07T11:52:52.287+0000",
+"active": true,
+"firstName": "Julian",
+"lastName": "Kaminski",
+"pesel": "82041439814",
+"nip": "0599590210",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1982-04-14",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 102,
+"insertData": "2018-12-07T11:52:52.287+0000",
+"updateData": "2018-12-07T11:52:52.287+0000",
+"active": true,
+"firstName": "Maja",
+"lastName": "Wlodarczyk",
+"pesel": "83090601500",
+"nip": "8700979198",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1983-09-06",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 103,
+"insertData": "2018-12-07T11:52:52.303+0000",
+"updateData": "2018-12-07T11:52:52.303+0000",
+"active": true,
+"firstName": "Gabriel",
+"lastName": "Jablonski",
+"pesel": "75110336312",
+"nip": "9381791769",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1975-11-03",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 104,
+"insertData": "2018-12-07T11:52:52.303+0000",
+"updateData": "2018-12-07T11:52:52.303+0000",
+"active": true,
+"firstName": "Krystian",
+"lastName": "Olszewski",
+"pesel": "61092385459",
+"nip": "7607088087",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1961-09-23",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 105,
+"insertData": "2018-12-07T11:52:52.320+0000",
+"updateData": "2018-12-07T11:52:52.320+0000",
+"active": true,
+"firstName": "Ewelina",
+"lastName": "Jaworska",
+"pesel": "71020379621",
+"nip": "7215621257",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1971-02-03",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 106,
+"insertData": "2018-12-07T11:52:52.320+0000",
+"updateData": "2018-12-07T11:52:52.320+0000",
+"active": true,
+"firstName": "Marta",
+"lastName": "Wilk",
+"pesel": "75031028769",
+"nip": "8904497838",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1975-03-10",
+"maritalStatus": {
+"id": 1,
+"name": "Kawaler / Panna",
+"active": true
+}
+},
+  {
+"id": 107,
+"insertData": "2018-12-07T11:52:52.333+0000",
+"updateData": "2018-12-07T11:52:52.333+0000",
+"active": true,
+"firstName": "Gustaw",
+"lastName": "Kaczmarek",
+"pesel": "66031162630",
+"nip": "9244150349",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1966-03-11",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 108,
+"insertData": "2018-12-07T11:52:52.333+0000",
+"updateData": "2018-12-07T11:52:52.333+0000",
+"active": true,
+"firstName": "Krystyna",
+"lastName": "Kubiak",
+"pesel": "63012405960",
+"nip": "4988115234",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1963-01-24",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 109,
+"insertData": "2018-12-07T11:52:52.333+0000",
+"updateData": "2018-12-07T11:52:52.333+0000",
+"active": true,
+"firstName": "Dominik",
+"lastName": "Kolodziej",
+"pesel": "83041980515",
+"nip": "5128812025",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1983-04-19",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 110,
+"insertData": "2018-12-07T11:52:52.350+0000",
+"updateData": "2018-12-07T11:52:52.350+0000",
+"active": true,
+"firstName": "Kinga",
+"lastName": "Kowalczyk",
+"pesel": "64051131768",
+"nip": "4412324774",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1964-05-11",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 111,
+"insertData": "2018-12-07T11:52:52.350+0000",
+"updateData": "2018-12-07T11:52:52.350+0000",
+"active": true,
+"firstName": "Angelika",
+"lastName": "Zakrzewska",
+"pesel": "62042759041",
+"nip": "4328244774",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1962-04-27",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 112,
+"insertData": "2018-12-07T11:52:52.367+0000",
+"updateData": "2018-12-07T11:52:52.367+0000",
+"active": true,
+"firstName": "Witold",
+"lastName": "Majewski",
+"pesel": "86010944776",
+"nip": "6682950586",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1986-01-09",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 113,
+"insertData": "2018-12-07T11:52:52.367+0000",
+"updateData": "2018-12-07T11:52:52.367+0000",
+"active": true,
+"firstName": "Blazej",
+"lastName": "Urbanski",
+"pesel": "92062135215",
+"nip": "2676961972",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1992-06-21",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 114,
+"insertData": "2018-12-07T11:52:52.367+0000",
+"updateData": "2018-12-07T11:52:52.367+0000",
+"active": true,
+"firstName": "Daniel",
+"lastName": "Krawczyk",
+"pesel": "86071398150",
+"nip": "3718784443",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1986-07-13",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 115,
+"insertData": "2018-12-07T11:52:52.380+0000",
+"updateData": "2018-12-07T11:52:52.380+0000",
+"active": true,
+"firstName": "Mikolaj",
+"lastName": "Szczepanski",
+"pesel": "52121695335",
+"nip": "1715177871",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1952-12-16",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 116,
+"insertData": "2018-12-07T11:52:52.380+0000",
+"updateData": "2018-12-07T11:52:52.380+0000",
+"active": true,
+"firstName": "Inga",
+"lastName": "Sokolowska",
+"pesel": "84022395645",
+"nip": "9337903569",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1984-02-23",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 117,
+"insertData": "2018-12-07T11:52:52.397+0000",
+"updateData": "2018-12-07T11:52:52.397+0000",
+"active": true,
+"firstName": "Dagmara",
+"lastName": "Wasilewska",
+"pesel": "69091666940",
+"nip": "9572206299",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1969-09-16",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 118,
+"insertData": "2018-12-07T11:52:52.397+0000",
+"updateData": "2018-12-07T11:52:52.397+0000",
+"active": true,
+"firstName": "Blanka",
+"lastName": "Czerwinska",
+"pesel": "86021518568",
+"nip": "7797909387",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1986-02-15",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 119,
+"insertData": "2018-12-07T11:52:52.397+0000",
+"updateData": "2018-12-07T11:52:52.397+0000",
+"active": true,
+"firstName": "Hanna",
+"lastName": "Adamska",
+"pesel": "64010141829",
+"nip": "8708855038",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1964-01-01",
+"maritalStatus": {
+"id": 3,
+"name": "Wdowiec / Wdowa",
+"active": true
+}
+},
+  {
+"id": 120,
+"insertData": "2018-12-07T11:52:52.410+0000",
+"updateData": "2018-12-07T11:52:52.410+0000",
+"active": true,
+"firstName": "Klaudia",
+"lastName": "Zalewska",
+"pesel": "80012233403",
+"nip": "5903914495",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1980-01-22",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 121,
+"insertData": "2019-01-17T12:12:02.613+0000",
+"updateData": "2019-01-17T12:12:02.613+0000",
+"firstName": "Ingebora",
+"lastName": "Nowakowska",
+"pesel": "84022395645",
+"nip": "9337903569",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1966-06-06",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 127,
+"insertData": "2019-01-17T13:29:34.983+0000",
+"updateData": "2019-01-17T13:29:34.983+0000",
+"firstName": "Matylda",
+"lastName": "Taniec",
+"pesel": "71072482183",
+"nip": "4980075553",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1971-07-24",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 128,
+"insertData": "2019-01-18T07:41:35.537+0000",
+"updateData": "2019-01-18T13:30:42.813+0000",
+"firstName": "Adam",
+"lastName": "Nowak",
+"pesel": "77072609210",
+"nip": "4549702403",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1977-07-26",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 129,
+"insertData": "2019-01-18T07:59:28.520+0000",
+"updateData": "2019-01-18T13:30:11.240+0000",
+"firstName": "Anna",
+"lastName": "Widełko",
+"pesel": "73112224444",
+"nip": "3349702433",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1973-11-22",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+},
+  {
+"id": 130,
+"insertData": "2019-01-18T08:01:48.563+0000",
+"updateData": "2019-01-18T13:29:05.933+0000",
+"firstName": "Jacek",
+"lastName": "Derezda",
+"pesel": "63021101253",
+"nip": "5576821472",
+"gender": {
+"id": 2,
+"name": "Mężczyzna",
+"active": true
+},
+"birthDate": "1963-02-11",
+"maritalStatus": {
+"id": 4,
+"name": "Rozwiedziony / Rozwiedziona",
+"active": true
+}
+},
+  {
+"id": 131,
+"insertData": "2019-01-18T09:34:09.583+0000",
+"updateData": "2019-01-18T09:34:09.583+0000",
+"firstName": "Zuzanna",
+"lastName": "Dobrowolska",
+"pesel": "88060711324",
+"nip": "6574839222",
+"gender": {
+"id": 1,
+"name": "Kobieta",
+"active": true
+},
+"birthDate": "1988-06-07",
+"maritalStatus": {
+"id": 2,
+"name": "Żonaty / Zamężna",
+"active": true
+}
+}
+],
