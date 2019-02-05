@@ -1,7 +1,3 @@
-/* div {
-    width: 100%;
-} */
-
 body > app-root > app-test-menu > div > button:nth-child(1) > span > mat-icon {
     align-items: flex-start;
     text-align: left;

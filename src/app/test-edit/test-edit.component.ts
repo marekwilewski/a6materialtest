@@ -77,7 +77,6 @@ export class TestEditComponent implements OnInit {
         this.client.maritalStatus = {id: 5, name: 'Inne'};
       }
     }
-    // console.log(JSON.stringify(this.client, null, ' '));
     this.clientService.putClient(this.client);
   }
 

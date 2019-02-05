@@ -33,7 +33,6 @@
 
     <mat-form-field>
       <mat-select [(ngModel)]="selectedMartialStatus" name="maritalStatus" placeholder="Marital Status">
-        <!-- <mat-option>{{clientToEdit.maritalStatus.name}}</mat-option> -->
         <mat-option *ngFor="let maritalStatus of maritalStatuses" [value]="maritalStatus.id">
           {{maritalStatus.name}}
         </mat-option>
