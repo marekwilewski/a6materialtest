@@ -16,3 +16,7 @@ table {
 .mat-header-cell.mat-header-cell.cdk-column-maritalStatusName.mat-column-maritalStatusName.ng-star-inserted {
     flex: 0 0 200px !important;
 }
+
+.mat-row:hover {
+    background-color:rgb(240, 240, 240);
+}
